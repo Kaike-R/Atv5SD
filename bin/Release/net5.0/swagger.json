@@ -1,0 +1,21 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Desafio3",
+    "version": "v1"
+  },
+  "paths": {
+    "/v1/Costumer/getall": {
+      "get": {
+        "tags": [
+          "Costumer"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}
